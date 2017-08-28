@@ -1419,7 +1419,6 @@ func testJailFunctionCall(t *testing.T) bool {
 }
 
 func testNodeOffline(t *testing.T) bool {
-
 	StopNode()
 	//time to sync
 	time.Sleep(10 * time.Second)
